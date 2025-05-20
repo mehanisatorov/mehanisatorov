@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты - Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="services.html" class="nav-link">Услуги</a>
+                <a href="projects.html" class="nav-link active">Работы</a>
+                <a href="testimonials.html" class="nav-link">Отзывы</a>
+                <a href="contact.html" class="nav-link">Контакты</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-header">
+                <h1>Мои проекты</h1>
+                <p>Посмотрите мои последние работы и проекты</p>
+            </section>
+
+            <section class="projects-filter">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Все</button>
+                    <button class="filter-btn" data-filter="web">Веб-разработка</button>
+                    <button class="filter-btn" data-filter="design">Дизайн</button>
+                    <button class="filter-btn" data-filter="python">Python</button>
+                    <button class="filter-btn" data-filter="forum">Оформление форума</button>
+                </div>
+            </section>
+
+            <section class="projects-grid">
+                <!-- <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="#" alt="">
+                    </div>
+                    <div class="project-content">       
+                        <h3>Корпоративный сайт</h3>
+                        <p>Современный корпоративный сайт с адаптивным дизайном и интеграцией CRM.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Демо</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="img/GG - Chat-Manager.jpg" alt="" height="200" width="355">
+                    </div>
+                    <div class="project-content">       
+                        <h3>GG: Chat-Manager</h3>
+                        <p>Современный чат-менеджер для бесед VKontakte.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://vk.com/gg_manager" class="project-link">Открыть</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="img/WP - Chat-Manager.jpg" alt="" height="200" width="355">
+                    </div>
+                    <div class="project-content">       
+                        <h3>WP: Chat-Manager</h3>
+                        <p>Современный чат-менеджер для бесед VKontakte.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://vk.com/wp_manager" class="project-link">Открыть</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="forum">
+                    <div class="project-image">
+                        <img src="img/Crystall.png" alt="" height="200" width="355">
+                    </div>
+                    <div class="project-content">       
+                        <h3>Оформление форума - CRYSTALL RUSSIA</h3>
+                        <p>Заливка шаблона, стиля. Настройка ролей, узлов, префиксов для тем.</p>
+                        <div class="project-tech">
+                            <span>css</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://whg67110.vkweb.su/index.php" class="project-link">Открыть</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 | Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
